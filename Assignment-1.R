@@ -26,9 +26,9 @@ ls()
 # I am learning R.
 
 # Q.5.-------------
-firstname = "Jatin"
+firstname = "Prerit"
 firstname
-lastname = "Bagga"
+lastname = "Bhagat"
 lastname
 
 print(paste(firstname, lastname))
