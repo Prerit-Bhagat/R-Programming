@@ -28,6 +28,14 @@ data <- read.csv("ds_salaries.csv")
 
 # Check if the data is a data frame
 print(is.data.frame(data))  
+# data <- read.csv(file, header = TRUE, sep = ",")
+# write.csv(x, file, row.names = TRUE, ...)
+# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...)
+# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...)
+
+
+
+
 
 # Check the number of columns and rows
 print(ncol(data))  
