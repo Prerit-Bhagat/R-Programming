@@ -71,8 +71,8 @@ print(new.data)
 list.files()  
 
 # Copying the file to a new location
-file.copy("C:/Users/Lenovo/Documents/subset1.txt", "C:/TIET/TIET_CSED/2022-23/Sem1/Data Science_UCS538/Lab")  
+file.copy("location1","location2")  
 
 # List the files in the specified directory
-list.files("C:/TIET/TIET_CSED/2022-23/Sem1/Data Science_UCS538/Lab")  
+list.files("Path")  
 
