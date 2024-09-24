@@ -39,7 +39,7 @@ print(RW)
 print(CW)
 
 # 10. Find the 2 and 3 row element of RW.
-RW[1:2,]  # RW[ROW , COL]
+RW[2:3,]  # RW[ROW , COL]
 
 # 11. Find the 1 and 4 column of CW.
 CW[,c(1,4)]
