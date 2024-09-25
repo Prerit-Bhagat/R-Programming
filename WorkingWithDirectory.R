@@ -29,21 +29,21 @@ data <- read.csv("ds_salaries.csv")
 # Check if the data is a data frame
 print(is.data.frame(data))  
 # data <- read.csv(file, header = TRUE, sep = ",")
-# write.csv(x, file, row.names = TRUE, ...)
-# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...)
-# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...)
+# write.csv(x, file, row.names = TRUE, ...) # nolint
+# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...) # nolint
+# data <- read.table(file, header = TRUE, sep = "", stringsAsFactors = FALSE, ...) # nolint
 
 
 
 
 
 # Check the number of columns and rows
-print(ncol(data))  
+print(ncol(data))   # nolint
 print(nrow(data))  
 
 # Get the max salary from the data frame
-sal <- max(data$salary)  
-print(sal)  
+sal <- max(data$salary)   # nolint: trailing_whitespace_linter.
+print(sal)   # nolint: trailing_whitespace_linter.
 
 # Get the person detail having max salary
 retval <- subset(data, salary == max(salary))  
